@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #252525;
+}
+
+nav a:hover {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #FFD369;
+    border-radius: 10px;
+}
+
+/*Container*/
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    margin-left: 30px;
+}
+
+
+aside{
+    margin-bottom: 20px;
+}
+
+/* Profile */
+#biodata{
+    padding: 25px;
+    background-color: #252525;
+    text-align: center;
+    color: #ffff;
+}
+
+.profile_img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+#biodata table th {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: start;
+    padding-right: 20px;
+    padding-bottom: 12px;
+}
+
+#biodata table td {
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#profile{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Skills*/
+#skills {
+    padding: 20px;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #383838;
+
+}
+
+/*Education*/
+#education{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Hobbies*/
+#hobbies{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hobbies_container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.hobbies_box {
+    flex: 1 1 auto;
+    padding: 20px 100px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.hobbies_icon{
+    width: 50px;
+}
+
+/*Footer*/
+footer {
+    border-top: 1px solid #E2E2E2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*General*/
+.icon {
+    width: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .profile_img {
+        max-width: 200px;
+    }
+
+    .hobbies_container{
+        flex-direction: column;
+    }
+
+    .hobbies_box{
+        padding: 20px 100px;
+    }
+
+    .right{
+        margin-left: 0;
+    }
+
+    .left{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    main{
+        flex-direction: column;
+    }
+
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .profile_img {
+        max-width: 300px;
+    }
+
+    .hobbies_container{
+        flex-direction: column;
+    }
+
+    .hobbies_box{
+        padding: 20px 100px;
+    }
+
+    .right{
+        margin-left: 0;
+    }
+
+    .left{
+        margin-right: 0;
+    }
+}
