@@ -8,7 +8,7 @@ Kurikulum disusun oleh Dicoding dan pelaku industri di bidang Web Development. S
 
 # Submission 
 * Belajar Dasar Pemrograman Web [[click here]](https://github.com/alfkri/front-end-web-dicoding/tree/Belajar-Dasar-Pemrograman-Web)
-* Belajar Membuat Front-End Web untuk Pemula Learning [[click here]](https://github.com/alfkri/front-end-web-dicoding/tree/Membuat-Front-End-Web-Pemula)
+* Belajar Membuat Front-End Web untuk Pemula [[click here]](https://github.com/alfkri/front-end-web-dicoding/tree/Membuat-Front-End-Web-Pemula)
 
 # Result
 | **No.** |              **Course**                     | **Date**    |  **Certificate Link**  |
