@@ -1,16 +1,17 @@
-## Getting Started  
+## Available Scripts  
+In this project directory, you can run:  
 
-- Install modules
-```bash
-npm install
-```
-- Run dev server
-```bash
-npm run dev
-```
+### `npm install`  
+Install any required modules
 
-### Build for production
-- Build
-```bash
-npm run build
-```
+### `npm run dev`    
+Runs the app in the development mode.
+
+### `npm run lint`
+Runs Eslint
+
+### `npm run build` 
+Build for production
+
+
+
