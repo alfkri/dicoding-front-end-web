@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallpapercave.com/dwp1x/wp10400996.jpg");
+  background-attachment: fixed;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", cursive;
+}
+
+.search-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.card-body {
+  background-color: #f5e8e4;
+}
+
+.movie-poster {
+  height: 400px;
+}
+
+@media only screen and (max-width: 425px) {
+  .movie-poster {
+    height: 200px;
+  }
+}
