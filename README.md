@@ -17,6 +17,6 @@ Kurikulum disusun oleh Dicoding dan pelaku industri di bidang Web Development. S
 ----------| --------------------------------------------|-------------|------------------------|
 | 1       | Belajar Dasar Pemrograman Web               | 03-10-2022  | [click here](https://www.dicoding.com/certificates/JMZVG6R5JZN9)|
 | 2       | Belajar Membuat Front-End Web untuk Pemula  | 19-10-2022  | [click here](https://www.dicoding.com/certificates/NVP79G6GWZR0)|
-| 3       | Belajar Fundamental Front-End Web Development | 07-1`-2022  | [click here](https://www.dicoding.com/certificates/RVZKKKJYQZD5)|
+| 3       | Belajar Fundamental Front-End Web Development | 07-11-2022  | [click here](https://www.dicoding.com/certificates/RVZKKKJYQZD5)|
 
 
